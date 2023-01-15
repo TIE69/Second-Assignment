@@ -430,3 +430,44 @@ margin-bottom: 0;
 /* Ends here */
 
 
+@media screen and (max-width:665px) {
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        
+    }
+
+    .container h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .second-page{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .third-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    
+    .sponsor-icon{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-details{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .grid-images{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

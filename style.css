@@ -1,4 +1,8 @@
 
+
+/* Font-family */
+
+
 /* -----Header and 
 --------Nav------ */
 
@@ -47,14 +51,14 @@
 .main-heading{
     font-size: 64px;
     line-height: 75px;
-    font-weight: 700 ;
+    font-weight: 900;
 
     margin-bottom: 0;
 }
 .main-heading-two{
     font-size: 64px;
     line-height: 75px;
-    font-weight: 700 ;
+    font-weight: 900 ;
 
     margin-top:0;
 }
@@ -73,6 +77,12 @@ color: #727272;
     text-align: center;
 
 }
+  .button:hover button {
+    color: #131313;
+  }
+
+
+
 
 .button-style{
     font-size: 20px;
@@ -233,6 +243,9 @@ background-color: #faf8f800;
 box-shadow: 0px 6px 20px rgb(247, 241, 238);
 
 }
+.left-content:hover{
+    background-color: #f8f3f3;
+}
 
 .left-heading{
 
@@ -329,11 +342,14 @@ margin-top: 140px ;
 
     border: 1px solid #FF900E;
     padding: 15px;
+    transition: width 2s;
 }
 
 .icon:hover{
     
-    background-color: rgba(252, 113, 0, 0.973);
+    background-color: rgb(255, 128, 0);
+    width:200px;
+
 }
 
 .icon-title{
@@ -346,7 +362,7 @@ margin-bottom: 0;
 .icon-info{
     font-size: 14px;
     font-weight: 400;
-    color: #727272;
+    color: #5e5252;
     margin-top: 0;
 }
 
@@ -372,7 +388,7 @@ margin-bottom: 0;
     
 }
 
-.sponson-icon{
+.sponsor-icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -387,6 +403,30 @@ margin-bottom: 0;
 
 }
 
-.sponson-icon img{
+.sponsor-icon img{
    filter: grayscale(100);
 }
+
+
+/* -------Footer ------*/
+
+.footer-details{
+    width: 800px;
+    text-align: center;
+    background-color:#FFF4E7 ;
+    padding: 5px;
+    margin: 20%;
+    margin-top: 150px;
+    
+}
+
+.footer-para{
+    color: #727272;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+/* Ends here */
+
+

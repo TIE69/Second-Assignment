@@ -470,4 +470,9 @@ margin-bottom: 0;
         flex-direction: column;
     }
 
+    .fourth-display-icon{
+        display: flex;
+        flex-direction: column;
+    }
+
 }

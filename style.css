@@ -311,3 +311,82 @@ margin-top: 140px ;
     
 
 }
+
+
+/* display-icon */
+
+.fourth-display-icon{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.icon{
+    width: 100px;
+
+    border: 1px solid #FF900E;
+    padding: 15px;
+}
+
+.icon:hover{
+    
+    background-color: rgba(252, 113, 0, 0.973);
+}
+
+.icon-title{
+font-weight: 600;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+.icon-info{
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 0;
+}
+
+
+/* .Sponsor-details */
+
+.Sponsor{
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 700;
+}
+
+.sponsor-heading{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.sponsor-details{
+    font-size: 14px;
+    color: #727272;
+
+    
+}
+
+.sponson-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 55px;
+
+}
+
+.icon-set{
+    width: 110px;
+    
+
+}
+
+.sponson-icon img{
+   filter: grayscale(100);
+}

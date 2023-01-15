@@ -86,7 +86,6 @@ color: #727272;
 }
 
 
-
 /* images */
 
 .main-image img{
@@ -175,15 +174,22 @@ color: #727272;
 }
 
 .hr-line{
-    padding: 1px;
+    width: 50%;
     border-radius: 50%;
-    box-shadow: #424242;
+    margin-top: 30px
+
+
 }
 
 /* Second-part-page-end */
 
 
 /* Third-part-pages */
+
+.third-container{
+    display: flex;
+    flex-direction: row;
+}
 
 .vl{
     border-left: 6px solid green;
@@ -232,7 +238,7 @@ box-shadow: 0px 6px 20px rgb(247, 241, 238);
 
     font-size: 20px;
     font-weight: 600;
-    Line height: 23.46px;
+    Line-height: 23.46px;
 
 
 }
@@ -242,4 +248,66 @@ font-size: 16px;
 font-weight: 400;
 color: 
 #727272;
+}
+
+.left-images{
+    margin-top: 210px;
+    margin-left: 30px;
+}
+
+.left-images img{
+    height: 700px;
+
+}
+
+/* Button */
+
+
+.left-button{
+    background-color: #FF900E;
+    color: aliceblue;
+    width: 190px;
+    border: #FF900E;
+    height: 130px;
+    margin-top: -70px;
+
+}
+.h1{
+font-weight: 700;
+font-size: 30px;
+}
+
+.p1{
+    font-size: 19px;
+    font-weight: 100;
+}
+
+/* Button-end */
+
+/* Fourth-part */
+
+.fourth-part{
+margin-left: 140px;
+margin-top: 140px ;
+}
+
+.fourth-heading{
+
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 24px;
+
+}
+
+.forth-para{
+
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 470px;
+    text-align: justify;
+    
+
 }
